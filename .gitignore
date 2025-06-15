@@ -1,0 +1,71 @@
+### OS-specific ###
+.DS_Store
+Thumbs.db
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!src/main/**/out/
+!src/test/**/out/
+
+### Eclipse ###
+.classpath
+.project
+.settings/
+.apt_generated/
+.factorypath
+.springBeans
+.sts4-cache
+bin/
+!src/main/**/bin/
+!src/test/**/bin/
+
+### VS Code ###
+.vscode/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Gradle distribution directory
+.gradle-cache/
+.gradle-local/
+
+# Logs and temp files
+*.log
+*.tmp
+
+### Java ###
+*.class
+
+### WAR / Deployment artifacts ###
+*.war
+*.ear
+
+### Server-specific (Tomcat, Jetty) ###
+tomcat.*.log
+catalina.out
+hs_err_pid*.log
+*.log
+
+### Local environment config ###
+*.env
+*.local
+*.swp
+*.bak
+
+### IDE-specific backup ###
+*.orig
+*.rej
